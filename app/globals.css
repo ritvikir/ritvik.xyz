@@ -7,3 +7,7 @@
 body {
   /* background: #FEFBE8; */
 }
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}

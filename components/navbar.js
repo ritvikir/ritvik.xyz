@@ -10,18 +10,18 @@ export default function Navbar() {
         </div>
         
         <div className="w-auto" id="navbar-default">
-          <ul className="flex flex-row space-x-8 mt-0 ">
-            <li className=" py-1 ">
+          <ul className="flex flex-row space-x-4 mt-0 ">
+            <li className=" py-1 px-2 hover:bg-gray-100 hover:rounded-lg ">
               <Link href="https://github.com/ritvikir" aria-current="page">
                 github
               </Link>
             </li>
-            <li className="py-1 ">
+            <li className="py-1 px-2 hover:bg-gray-100 hover:rounded-lg">
               <Link href="https://twitter.com/ritvikir" aria-current="page">
                 twitter
               </Link>
             </li>
-            <li className=" py-1 ">
+            <li className=" py-1 px-2 hover:bg-gray-100 hover:rounded-lg">
               <Link href="/writing">words</Link>
             </li>
           </ul>

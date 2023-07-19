@@ -22,7 +22,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className=" py-1 ">
-              <Link href="/blog">words</Link>
+              <Link href="/writing">words</Link>
             </li>
           </ul>
         </div>

@@ -12,17 +12,17 @@ export default function Navbar() {
         <div className="w-auto" id="navbar-default">
           <ul className="flex flex-row space-x-8 mt-0 ">
             <li className=" py-1 ">
-              <Link href="" aria-current="page">
+              <Link href="https://github.com/ritvikir" aria-current="page">
                 github
               </Link>
             </li>
             <li className="py-1 ">
-              <Link href="" aria-current="page">
+              <Link href="https://twitter.com/ritvikir" aria-current="page">
                 twitter
               </Link>
             </li>
             <li className=" py-1 ">
-              <Link href="">words</Link>
+              <Link href="/blog">words</Link>
             </li>
           </ul>
         </div>

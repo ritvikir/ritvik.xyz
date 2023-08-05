@@ -29,8 +29,8 @@ export function getPostMetadata() {
 export default function Writing() {
   
   const posts = getPostMetadata();
-  const postPreviews = posts.map((post) => (
-    <div>
+  const postPreviews = posts.map((post, i) => (
+    <div key={i}>
       <Link href={`/writing/${post.slug}`} >
       <h2>{post.title}</h2>
       </Link>
